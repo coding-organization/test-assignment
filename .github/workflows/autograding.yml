@@ -10,5 +10,4 @@ jobs:
         run: pip install pytest numpy
       - name: Run hidden tests
         run: |
-          cd /autograder/source
           pytest tests/test_hidden.py -v
