@@ -1,2 +1,3 @@
-tests/test_hidden.py
+tests/generate.py
 __pycache__
+
