@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Hidden Tests",
+      "run": "cd /autograder/source && pytest tests/test_hidden.py -v",  # Absolute path
+      "points": 100,
+      "hidden": true
+    }
+  ]
+}

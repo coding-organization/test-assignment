@@ -1,0 +1,14 @@
+name: Autograding
+on: [push]  # Triggers on code push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install pytest numpy
+      - name: Run hidden tests
+        run: |
+          cd /autograder/source
+          pytest tests/test_hidden.py -v
