@@ -1,10 +1,9 @@
 {
   "tests": [
     {
-      "name": "Hidden Tests",
+      "name": "Test",
       "run": "pytest tests/test.py -v",  # Absolute path
-      "points": 100,
-      "hidden": true
+      "points": 100
     }
   ]
 }
